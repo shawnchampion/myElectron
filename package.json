@@ -4,7 +4,9 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,10 @@
   },
   "homepage": "https://github.com/shawnchampion/myElectron#readme",
   "devDependencies": {
-    "electron": "^9.2.1"
+    "electron": "^9.2.1",
+    "electron-builder": "^22.8.0"
+  },
+  "dependencies": {
+    "update-electron-app": "^1.5.0"
   }
 }

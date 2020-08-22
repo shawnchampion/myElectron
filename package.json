@@ -1,0 +1,22 @@
+{
+  "name": "myelectron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnchampion/myElectron.git"
+  },
+  "author": "shawnchampion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawnchampion/myElectron/issues"
+  },
+  "homepage": "https://github.com/shawnchampion/myElectron#readme",
+  "devDependencies": {
+    "electron": "^9.2.1"
+  }
+}
